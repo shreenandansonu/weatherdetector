@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+<style>
+    body{
+        background-color: rgb(250, 248, 226);
+        color: blanchedalmond;
+        font-family: monospace;
+        font-size: x-large;
+        padding: 20px;
+    }
+    .data{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: rgb(0, 42, 43);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    .form1{
+        background-color: rgb(0, 42, 43);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        color:burlywood
+    }
+</style>
+
+</head>
+
+<body>
+    <form method="POST" action="">
+        {%csrf_token%}
+        <input class="form1" type="text" placeholder="cityname" name='city'>
+        <button class="form1"   type="submit">search</button>
+    </form>
+
+    {%if country_code and temp and name %}
+    <div class="data">
+    <h4 class="box">City name:{{name}}</h4>
+    <h4 class="box">Country code:{{country_code}}</h4>
+    <h4 class="box">Temperature:{{temp}}</h4>
+    <h4 class="box">pressure:{{pressure}}</h4>
+    <h4 class="box">Humidity:{{humidity}}</h4>
+    <h4 class="box">rain:{{rain}}</h4>
+    <h4 class="box">description:{{description}}</h4>
+    </div>
+    {%endif%}
+
+</body>
+
+</html>
