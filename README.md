@@ -14,14 +14,24 @@ Using https://openweathermap.org/api and django created and web-app which will p
 - Uses HTML, CSS and JS on front end to render the UI.
 
 
+## Mobile Friendly
+
+Using the IP adress and connecting the mobile and PC to same netwrok we can use our PC as server and usign http we can access it on our mobile phones
+
+python manage.py runserver IP ADRESS:8000 (local host)
+
+
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreenandan-sahu-9318991b4/)
 
 
 
-## 🛠 Skills
-Javascript, HTML, CSS, Django, Bootstrap, figma
+## Tech Stack
+
+**Client:** HTML, CSS, JS
+
+**Server:** Django
 
 
 ## Screenshots
@@ -33,3 +43,5 @@ Javascript, HTML, CSS, Django, Bootstrap, figma
 ![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/Screenshot%20(9).png?raw=true)
 
 ![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/Screenshot%20(10).png?raw=true)
+
+![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/ss.png?raw=true)
