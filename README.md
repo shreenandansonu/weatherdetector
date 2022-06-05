@@ -35,6 +35,7 @@ python manage.py runserver IP ADRESS:8000 (local host)
 
 
 ## Screenshots
+![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/sss.png?raw=true)
 
 ![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/Screenshot%20(7).png?raw=true)
 
@@ -45,3 +46,4 @@ python manage.py runserver IP ADRESS:8000 (local host)
 ![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/Screenshot%20(10).png?raw=true)
 
 ![App Screenshot](https://github.com/shreenandansonu/weatherdetector/blob/main/ss.png?raw=true)
+
